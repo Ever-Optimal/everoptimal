@@ -1,0 +1,16 @@
+{
+  "title": "We build digital products that power business",
+  "text": "We're an innovation consultancy and agile dev team. We build innovative web and mobile apps to delight your customers. From baby steps to graduation, we're with you.",
+  "section": [
+    {
+      "title": "What's Agile?",
+      "content": "Agile is an iterative approach to project management and software development that helps teams deliver value to their customers faster and with fewer headaches.",
+      "icon": "notes.svg"
+    },
+    {
+      "title": "What should I expect?",
+      "content": "Ideas, planning, code, release, reflect, improve, repeat.",
+      "icon": "notes.svg"
+    }
+  ]
+}

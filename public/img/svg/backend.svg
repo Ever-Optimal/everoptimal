@@ -1,0 +1,66 @@
+ <svg viewBox="0 0 397 361" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <path id="a" d="M0,53.4299732 L0,0 L165,0 L165,53.4299732 C165,78.2439891 128.063492,98.3597235 82.5,98.3597235 C36.9365081,98.3597235 0,78.2439891 0,53.4299732 Z"/>
+    <path id="c" d="M0,62.4299732 L0,0 L165,0 L165,62.4299732 C165,87.2439891 128.063492,107.359723 82.5,107.359723 C36.9365081,107.359723 0,87.2439891 0,62.4299732 Z"/>
+    <filter id="e" width="367.9%" height="367.6%" x="-133.9%" y="-133.8%" filterUnits="objectBoundingBox">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="6.5"/>
+    </filter>
+    <path id="f" d="M0 0H165V56.0131579H0z"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(0 -56)">
+    <path fill="#F6F6F6" fill-rule="nonzero" d="M106.599209,96.0879972 C-17.8072332,199.310572 206.147409,152.855972 145.925182,305.474362 C85.7029558,458.092753 303.208679,431.410366 344.893825,354.714189 C386.57897,278.018012 280.786424,284.449923 344.893825,173.622717 C409.001225,62.7955114 231.005651,-7.13457796 106.599209,96.0879972 Z" transform="rotate(27 213.369097 230.972961)"/>
+    <ellipse cx="158.5" cy="314.956789" fill="#8981AD" fill-rule="nonzero" rx="69.5" ry="37.9297502"/>
+    <g id="ill-37" data-el-parallax="-0.06" data-y="30">
+      <path fill="#8379A8" fill-rule="nonzero" d="M299.899495 300.926534H313.899495V314.926534H299.899495z" transform="rotate(-45 306.899495 307.926534)"/>
+    </g>
+    <g id="ill-38" data-el-parallax="-0.03" data-y="10">
+      <path fill="#DDE3E9" fill-rule="nonzero" d="M2.89949494 290.926534H16.89949494V304.926534H2.89949494z" transform="rotate(-45 9.899495 297.926534)"/>
+    </g>
+    <g transform="translate(76 189.434934)">
+      <g transform="translate(0 54.92975)">
+        <mask id="b" fill="#fff">
+          <use xlink:href="#a"/>
+        </mask>
+        <use fill="#5C5380" fill-rule="nonzero" xlink:href="#a"/>
+        <g fill-rule="nonzero" mask="url(#b)">
+          <g transform="translate(78.007353 47.787021)">
+            <ellipse cx="4.49264706" cy="17.8577163" fill="#00CAC5" rx="3.63970588" ry="3.64295272"/>
+            <ellipse cx="4.49264706" cy="4.50022302" fill="#009B97" rx="3.63970588" ry="3.64295272"/>
+            <ellipse cx="4.49264706" cy="31.2152096" fill="#FFF" rx="3.63970588" ry="3.64295272"/>
+          </g>
+        </g>
+      </g>
+      <ellipse cx="82.5" cy="44.9297502" fill="#74699A" fill-rule="nonzero" rx="82.5" ry="44.9297502"/>
+    </g>
+    <g transform="translate(76 126.027039)">
+      <g transform="translate(0 45.92975)">
+        <mask id="d" fill="#fff">
+          <use xlink:href="#c"/>
+        </mask>
+        <use fill="#5C5380" fill-rule="nonzero" xlink:href="#c"/>
+        <g fill-rule="nonzero" mask="url(#d)">
+          <g transform="translate(75.007353 54.787021)">
+            <ellipse cx="7.49264706" cy="20.8577163" fill="#FF9B21" rx="3.63970588" ry="3.64295272"/>
+            <ellipse cx="7.49264706" cy="7.50022302" fill="#FF5A21" rx="3.63970588" ry="3.64295272"/>
+            <ellipse cx="7.49264706" cy="34.2152096" fill="#342E4F" rx="3.63970588" ry="3.64295272"/>
+            <ellipse cx="7.49264706" cy="7.50022302" fill="#FF5A21" filter="url(#e)" opacity=".61300223" rx="7.27941176" ry="7.28590544"/>
+          </g>
+        </g>
+      </g>
+      <ellipse cx="82.5" cy="44.9297502" fill="#A197C5" fill-rule="nonzero" rx="82.5" ry="44.9297502"/>
+    </g>
+    <g transform="translate(76 225.908618)">
+      <mask id="g" fill="#fff">
+        <use xlink:href="#f"/>
+      </mask>
+      <path stroke="#342E4F" stroke-width="5.9" d="M82.5 52.3601259C129.373254 52.3601259 167.371534 32.1887353 167.371534 7.30606407M82.5 52.3601259C35.626746 52.3601259-2.37153409 32.1887353-2.37153409 7.30606407" mask="url(#g)"/>
+    </g>
+    <g id="ill-36" data-el-parallax="-0.02" data-y="0">
+      <path fill="#00CAC5" fill-rule="nonzero" d="M223.899495 87.9265342H237.899495V101.9265342H223.899495z" transform="rotate(-45 230.899495 94.926534)"/>
+    </g>
+    <g id="ill-39" data-el-parallax="-0.06" data-y="20">
+      <rect width="42" height="20" x="47" y="206" fill="#FFB461" fill-rule="nonzero" rx="9"/>
+    </g>
+    <rect width="22" height="20" x="235" y="275" fill="#FFF" fill-rule="nonzero" rx="5"/>
+  </g>
+</svg>
