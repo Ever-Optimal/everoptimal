@@ -1,11 +1,9 @@
 import { useState, useEffect } from 'react'
 import { notification } from 'antd'
-// import axios from 'axios'
 
 const useForm = (validate) => {
   const [values, setValues] = useState({})
   const [errors, setErrors] = useState({})
-  const [shouldSubmit, setShouldSubmit] = useState(false)
 
   const openNotificationWithIcon = (type) => {
     notification[type]({
@@ -17,25 +15,14 @@ const useForm = (validate) => {
   const handleSubmit = (event) => {
     event.preventDefault()
     setErrors(validate(values))
-    // console.log({ values })
-    // const url = 'https://96veu62fu3.execute-api.eu-west-2.amazonaws.com/email'
-    // if (Object.keys(values).length === 3) {
-    //   axios
-    //     .post(url, {
-    //       ...values
-    //     })
-    //     .then(() => {
-    //       setShouldSubmit(true)
-    //     })
-    // }
   }
 
   useEffect(() => {
-    if (Object.keys(errors).length === 0 && shouldSubmit) {
+    if (Object.keys(errors).length === 0) {
       setValues('')
       openNotificationWithIcon('success')
     }
-  }, [errors, shouldSubmit])
+  }, [errors])
 
   const handleChange = (event) => {
     event.persist()
