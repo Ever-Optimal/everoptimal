@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { notification } from 'antd'
-import axios from 'axios'
+// import axios from 'axios'
 
 const useForm = (validate) => {
   const [values, setValues] = useState({})
@@ -18,16 +18,16 @@ const useForm = (validate) => {
     event.preventDefault()
     setErrors(validate(values))
     // console.log({ values })
-    const url = 'https://96veu62fu3.execute-api.eu-west-2.amazonaws.com/email'
-    if (Object.keys(values).length === 3) {
-      axios
-        .post(url, {
-          ...values
-        })
-        .then(() => {
-          setShouldSubmit(true)
-        })
-    }
+    // const url = 'https://96veu62fu3.execute-api.eu-west-2.amazonaws.com/email'
+    // if (Object.keys(values).length === 3) {
+    //   axios
+    //     .post(url, {
+    //       ...values
+    //     })
+    //     .then(() => {
+    //       setShouldSubmit(true)
+    //     })
+    // }
   }
 
   useEffect(() => {
