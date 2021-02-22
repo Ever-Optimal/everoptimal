@@ -69,15 +69,9 @@ const Contact = ({ title, content, id, t }) => {
                 <ValidationType type='message' />
               </Col>
               <S.ButtonContainer>
-                <a
-                  href={`mailto:finance@everoptimal.com?subject=${encodeURIComponent(
-                    `I'd like to discuss my project`
-                  )}&body=${encodeURIComponent(`${values.message}\n\nKind regards,\n${values.name}`)}`}
-                >
-                  <Button name='submit' type='button'>
-                    {t('Submit')}
-                  </Button>
-                </a>
+                <Button name='submit' type='submit'>
+                  {t('Submit')}
+                </Button>
               </S.ButtonContainer>
             </S.FormGroup>
           </Col>
