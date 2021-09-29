@@ -96,8 +96,8 @@ const Footer = ({ t }) => (
             </S.NavLink>
             <S.FooterContainer>
               <p style={{ color: 'grey', fontSize: '0.75rem' }}>
-                Ever Optimal is registered in England and Wales as Ever Optimal Ltd (No. 13136852) 23 Eagle House, 30
-                Eagle Wharf Road, London, N1 7EH © Ever Optimal 2021. All rights reserved.
+              Ever Optimal is registered in England and Wales as Ever Optimal Ltd (No. 13136852)
+              Our registered office is: 125-135 Telecom House Preston Road, Brighton, England, BN1 6AF. © Ever Optimal 2021. All rights reserved.
               </p>
             </S.FooterContainer>
           </Row>
